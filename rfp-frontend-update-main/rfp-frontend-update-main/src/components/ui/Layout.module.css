@@ -1,0 +1,60 @@
+.layoutContainer {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .leftPanel {
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border-right: 2px solid #ccc;
+    background-color: white;
+    transition: width 0.5s;
+  }
+  
+  .panelHeader {
+    display: flex;
+    height: 44px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .backButton {
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px;
+    font-weight: lighter;
+    color: #080a10;
+    transition: color 0.3s;
+  }
+  
+  .backButton:hover {
+    color: #333;
+  }
+  
+  .accordionContainer {
+    flex-grow: 1;
+    overflow-y: scroll;
+    width: 100%;
+  }
+  
+  .rightPanel {
+    height: 100vh;
+    transition: width 0.5s;
+    background-color: #f5f5f5;
+  }
+  
+  .loadingContainer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
